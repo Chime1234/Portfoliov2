@@ -1,0 +1,10 @@
+.contact {
+  flex-direction: column;
+  margin-top: 3.5em;
+  text-align: center;
+}
+.icon{
+  font-size: 25px;
+  color:rgb(205, 205, 255);
+  margin-left: 0.6em;
+}

@@ -1,0 +1,36 @@
+.project {
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.2s linear;
+  }
+  
+  .project:hover {
+    transform: translateY(-7px);
+  }
+  
+  .project__description {
+    margin-top: 1em;
+    color: rgb(205, 205, 255);
+    font-size: 1.1rem;
+  }
+  
+  .project__stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.2em 0;
+  }
+  
+  .project__stack-item {
+    margin: 0.5em;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgb(205, 205, 255);
+  }
+  @media (max-width: 768px) {
+    .project {
+      margin:auto 1em;
+    }
+  }

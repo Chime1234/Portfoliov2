@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: rgb(35,40, 62);
+}
+.wrapper{
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  color: rgb(205, 205, 255);
+}
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+button {
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+}
